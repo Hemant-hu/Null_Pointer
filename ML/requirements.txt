@@ -1,0 +1,7 @@
+fastapi
+sklearn
+opencv-python 
+mediapipe
+numpy 
+scipy
+fastdtw
