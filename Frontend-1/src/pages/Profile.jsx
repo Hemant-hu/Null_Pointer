@@ -136,7 +136,7 @@ const Profile = () => {
                                 <span className="stat-value">{stat.value}</span>
                                 <span className="stat-label">{stat.label}</span>
                             </div>
-                        ))}
+                        ))}d
                     </div> */}
 
                     {/* Profile Actions */}
