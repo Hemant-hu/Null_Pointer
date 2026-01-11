@@ -57,7 +57,7 @@ async def verify_skill(expert_id: str = Form(...), video: UploadFile = File(...)
 
     return {
         "score": score,
-        "grade": "Gold" if score > 85 else "Silver" if score > 70 else "Bronze",
+        # "grade": "Gold" if score > 85 else "Silver" if score > 70 else "Bronze",
         "videos": {
             "user_skeleton": f"/get-video/user_{video.filename}",
             "expert_skeleton": f"/get-video/expert_{expert_id}.mp4"
